@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#banner {
+    float: left;
+    color: white;
+    background: black;
+    width: 100%;
+    height: 11%;
+    border-bottom: 1px solid black;
+}
+
+#info {
+    float: left;
+    color: yellow;
+    background: red;
+    width: 100%;
+    height: 3%;
+    border-bottom: 1px solid black;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+    height: 3%;
+    border-bottom: 1px solid black;
+}
+
+.menu:hover {
+    background: black;
+    color: white;
+}
+
+main {
+    float: left;
+    width: 100%;
+    height: 75.6%;
+    background: yellow;
+}
+
+#tak {
+    float: left;
+}
+
+#foto {
+    float: right;
+    padding: 2%;
+}
+
+footer {
+    width: 100%;
+    height: 3%;
+    float: left;
+    text-align: center;
+    border-top: 1px solid black;
+}
