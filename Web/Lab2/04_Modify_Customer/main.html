@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <form action="http://localhost/Kino/Kino5.php" method="POST">
+        <h3>Modyfikacja Klientów</h3><br>
+
+        <span>U kogo ma się coś zmienić?</span>
+        <input type="number" name="numer"><br><br>
+
+        <label for="zmien">Co ma się zmienić?</label>
+        <select id="zmien" name="zmien">
+            <option value="id">ID</option>
+            <option value="imie">Imię</option>
+            <option value="nazwisko">Nazwisko</option>
+        </select><br><br>
+
+        <span>Na co zmienić?</span>
+        <input type="text" name="nowe"><br><br>
+
+        <input type="submit" value="Zatwierdź">
+    </form>
+
+</body>
+</html>
