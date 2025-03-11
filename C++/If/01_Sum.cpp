@@ -14,7 +14,6 @@ int main() {
     cout << "Podaj 3 liczbe: " << endl;
     cin >> liczba3;
 
-    // Obliczenie sumy trzech liczb
     int suma = liczba1 + liczba2 + liczba3;
 
     cout << "Suma wynosi: " << suma << endl;
