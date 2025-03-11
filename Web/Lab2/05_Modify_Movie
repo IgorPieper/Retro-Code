@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <form action="http://localhost/Kino/Kino6.php" method="POST">
+        <h3>Modyfikacja Filmów</h3><br>
+
+        <span>Który film ma ulec zmianie?</span>
+        <input type="number" name="film"><br><br>
+
+        <label for="zmien">Co ma się zmienić?</label>
+        <select id="zmien" name="zmien">
+            <option value="id">ID</option>
+            <option value="tytul">Tytuł</option>
+            <option value="rezyser">Reżyser</option>
+            <option value="rok_produkcji">Rok Produkcji</option>
+            <option value="dlugosc">Długość</option>
+            <option value="gatunek">Gatunek</option>
+        </select><br><br>
+
+        <span>Na co zmienić?</span>
+        <input type="text" name="nowe"><br><br>
+
+        <input type="submit" value="Zatwierdź">
+    </form>
+
+</body>
+</html>
