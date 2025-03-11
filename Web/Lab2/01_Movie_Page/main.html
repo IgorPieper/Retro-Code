@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <form action="http://localhost/kino/kino1.php" method="POST">
+        <h3>Dodaj klienta do bazy</h3>
+        <p>Imię: <input type="text" name="imie"></p>
+        <p>Nazwisko: <input type="text" name="nazwisko"></p>
+        <input type="submit" value="Zatwierdź">
+
+        <h3>Dodaj film do bazy</h3>
+        <p>Tytuł: <input type="text" name="tytul"></p>
+        <p>Reżyser: <input type="text" name="rezyser"></p>
+        <p>Data: <input type="date" name="cena"></p>
+        <p>Czas trwania: <input type="time" name="dlugosc"></p>
+        <p>Gatunek: <input type="number" min="2" max="4" name="gatunek"></p>
+        <input type="submit" value="Zatwierdź">
+    </form>
+
+    <h3>Dostępne gatunki filmów</h3>
+    <p>2 - Horror</p>
+    <p>3 - Komedia</p>
+    <p>4 - Romans</p>
+
+</body>
+</html>
