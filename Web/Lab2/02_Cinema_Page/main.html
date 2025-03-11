@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <form action="http://localhost/Kino/Kino2.php" method="POST">
+        <h3>Dodaj nowy seans</h3>
+
+        <p>Data: <input type="date" name="data"></p>
+        <p>Godzina: <input type="time" name="godzina"></p>
+        <p>Bilet: <input type="number" min="1" max="3" name="bilet"></p>
+
+        <label for="klient">Wybierz klienta:</label>
+        <select id="klient" name="klient">
+            <option value="Jonasz">Jonasz</option>
+            <option value="Mama">Mama</option>
+        </select><br><br>
+
+        <label for="sala">Wybierz salę:</label>
+        <select id="sala" name="sala">
+            <option value="Mala">Mała</option>
+            <option value="Srednia">Średnia</option>
+            <option value="Duza">Duża</option>
+        </select><br><br>
+
+        <label for="film">Wybierz film:</label>
+        <select id="film" name="film">
+            <option value="Za Siedmioma Krasnoludkami">Za Siedmioma Krasnoludkami</option>
+            <option value="Historia prawdziwa">Historia prawdziwa</option>
+            <option value="Sta tutaj">Sta tutaj</option>
+        </select><br><br>
+
+        <input type="submit" value="Zatwierdź">
+    </form>
+
+</body>
+</html>
